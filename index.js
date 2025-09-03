@@ -11,6 +11,8 @@ import authRoute from "./routes/auth.js";
 import commentRoute from "./routes/comments.js";
 import postRoute from "./routes/posts.js";
 import followRoute from "./routes/follow.js";
+import dotenv from 'dotenv'
+dotenv.config();
 
 // MiddleWares
 app.use((req, res, next) => {
